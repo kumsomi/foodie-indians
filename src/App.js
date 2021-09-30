@@ -101,7 +101,12 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>🥘🥣 foodiieeIndian </h1>
+      <h1>
+        <span role="img" aria-label="food-items">
+          🥘🥣
+        </span>{" "}
+        foodiieeIndian{" "}
+      </h1>
       <small>Yummy from India's tummy</small>
       <div>
         {Object.keys(foodDB).map((cuisine) => {
