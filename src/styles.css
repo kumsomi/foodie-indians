@@ -1,7 +1,11 @@
-body {
-  background: #e5e7eb;
+:root {
+  --primary-color: #082032;
+  --secondary-color: #f0a500;
 }
-
+body {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
 .App {
   font-family: sans-serif;
   max-width: 600px;
@@ -13,7 +17,7 @@ body {
   padding: 0.5rem 1rem;
   margin: 1rem 0.2rem;
   cursor: pointer;
-  border: 1px solid black;
+  border: 1px solid var(--secondary-color);
   border-radius: 0.5rem;
 }
 
@@ -28,7 +32,7 @@ ul {
 li {
   list-style: none;
   padding: 1rem;
-  border: 1px solid #d1d5db;
+  border: 1px solid var(--secondary-color);
   width: 70%;
   margin: 1rem 0rem;
   border-radius: 0.5rem;

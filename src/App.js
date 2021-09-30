@@ -102,7 +102,7 @@ export default function App() {
   return (
     <div className="App">
       <h1>🥘🥣 foodiieeIndian </h1>
-      <small>Delicious Types of Cuisine You Should Try</small>
+      <small>Yummy from India's tummy</small>
       <div>
         {Object.keys(foodDB).map((cuisine) => {
           return (
